@@ -146,7 +146,7 @@ div nav li:hover{
     background: rgb(138,11,223);
     background: linear-gradient(90deg, rgba(138,11,223,1) 0%, rgba(253,29,113,1) 50%, rgba(252,176,69,1) 100%);
     position: absolute;
-    top: 70px;
+    top: 90px;
     right: 0;
     width: 100vw;
     height: 100vh;
@@ -168,24 +168,25 @@ img{
     height: 100vh;
 }
 
-
-.custom-shape-divider-top-1629913554 {
-    top: 30px;
+.custom-shape-divider-top-1630214192 {
+    
+    position: absolute;
+    top: 0;
     left: 0;
     width: 100%;
+    overflow: hidden;
     line-height: 0;
 }
 
-.custom-shape-divider-top-1629913554 svg {
+.custom-shape-divider-top-1630214192 svg {
+    position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 275px;
-    transform: rotateY(180deg);
-    
+    height: 150px;
 }
 
-.custom-shape-divider-top-1629913554 .shape-fill {
-    fill: #d66690;
+.custom-shape-divider-top-1630214192 .shape-fill {
+    fill: #FFFFFF;
 }
 
 
